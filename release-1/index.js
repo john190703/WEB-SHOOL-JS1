@@ -7,8 +7,7 @@ console.log(hiFunction())
 
 // 5, 6 -> 11
  const sum = () => {
-    let a=3
-    let b=12
+    let a=3, b=12
     return(a+b)
 }
 console.log(sum())
@@ -17,13 +16,8 @@ console.log(sum())
 //0 -> true
 //4 -> true
  const isEven = () => {
-    let a=6
-    if (a%2==0){
-        return('true')
-    }
-    else{
-        return('false')
-    }
+    let a=0
+    return(!(a%2))
 }
 console.log(isEven())
 
